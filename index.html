@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <select id="language">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+    </select>
+
+    <h1>Random Quote Generator</h1>
+    
+    <div class="category-selector">
+      <label><input type="checkbox" value="inspirational"> Inspirational</label>
+      <label><input type="checkbox" value="love"> Love</label>
+      <label><input type="checkbox" value="wisdom"> Wisdom</label>
+    </div>
+
+    <button id="generate-btn">Generate Quote</button>
+
+    <div class="quote-box" id="quote-box">
+      <p id="quote-text">Click the button to generate a quote!</p>
+      <p id="quote-author"></p>
+    </div>
+
+    <div class="actions">
+      <button id="share-btn">Share to Twitter</button>
+    </div>
+
+    <h3>Submit a Quote</h3>
+    <form id="quote-form">
+        <input type="text" id="custom-quote" placeholder="Your quote" required />
+        <input type="text" id="custom-author" placeholder="Author" />
+        <button type="submit">Add Quote</button>
+    </form>
+
+    <button id="notification-btn">Enable Daily Quote Notification</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

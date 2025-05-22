@@ -8,7 +8,11 @@ This is a simple web application that generates random quotes and allows users t
 
 - Fetches random quotes from a public quote API.
 - Allows users to select quote categories or topics (e.g., motivation, love, wisdom) using checkboxes or a dropdown menu.
+- Allows users to submit a custom quote.
+- Allows users to enable daily notification.
+- Allows users to share the quotes to Twitter.
 - Ensures quotes do not repeat until all available quotes in a selected category have been shown.
+- Translates the quotes to the selected language.
 - Visually appealing and responsive design.
 - Smooth animations/transitions for displaying new quotes.
 
@@ -17,7 +21,9 @@ This is a simple web application that generates random quotes and allows users t
 - HTML
 - CSS
 - JavaScript (ES6+)
+- Notification API
 - [Quote API](https://api.quotable.io) 
+- [Translate API](https://api.mymemory.translated.net)
 
 ## Getting Started
 
